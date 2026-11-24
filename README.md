@@ -3,18 +3,18 @@
 Thème "config-as-code" pour Brave, basé sur la palette [Catppuccin](https://catppuccin.com/) (flavor **Mocha**). Contrairement au créateur de thème intégré (`brave://settings/appearance`), tout est ici défini en JSON versionnable, sur le même principe que mes scripts PowerShell.
 
 ## Installation (mode développeur)
-
-1. Ouvre `brave://extensions`
-2. Active **Mode développeur** (interrupteur en haut à droite)
-3. Clique **Charger l'extension non empaquetée**
-4. Sélectionne le dossier `catppuccin-mocha-brave/`
-5. Le thème s'applique immédiatement. Pour le recharger après une modif, clique l'icône ↻ sur la carte de l'extension dans `brave://extensions`
+1.les fichiers téléchargés doivent rester dans le même dossier, nommer le `catppuccin-mocha-brave/`
+2. Ouvre `brave://extensions`
+3. Active **Mode développeur** (interrupteur en haut à droite)
+4. Clique **Charger l'extension non empaquetée**
+5. Sélectionne le dossier `catppuccin-mocha-brave/`
+6. Le thème s'applique immédiatement. Pour le recharger après une modif, clique l'icône ↻ sur la carte de l'extension dans `brave://extensions`
 
 ## Structure
 
 - `manifest.json` — le thème lui-même (couleurs frame/toolbar/onglets/NTP/omnibox)
 - `palette.json` — référence des 26 couleurs Catppuccin Mocha en hex (pas lu par Brave, juste pour toi)
-- `images/` — vide pour l'instant, réservé si tu veux ajouter une image de fond pour le nouvel onglet (`ntp_background`)
+- `images/` — image crée par IA, réservé si tu veux ajouter une image de fond pour le nouvel onglet (`ntp_background`)
 
 ## Modifier une couleur
 
